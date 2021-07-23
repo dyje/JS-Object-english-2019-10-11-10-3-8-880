@@ -19,11 +19,9 @@
   // 2. Program and observe the following requirements: 
   // calculate how many pieces of fruit there are in the fruit object and the output should be 50.
   var fruit = {
-    apple: 20,
-    pear: 20,
-    peach: 10,
-    get_total: function(){
-        return fruit.apple + fruit.pear + fruit.peach;
-        } 
+  apple: 20,
+  pear: 20,
+  peach: 10,  
   };
-  console.log(fruit.get_total());
+  var total = fruit.apple + fruit.pear + fruit.peach;
+  console.log(total);
